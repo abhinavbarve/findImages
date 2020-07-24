@@ -1,0 +1,243 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    text-align:center;
+    padding:0px;
+    margin:0px;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/light-sketch.png");
+}
+
+.header{
+    padding:0;
+    background-color: #2a547e
+}
+
+nav{
+    width:80%;
+    margin:auto;
+}
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-size:2rem;
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color:#fff;
+}
+.navbar-toggler-icon{
+    z-index:2
+}
+
+.search-media{
+    margin:10px 20px;
+    width:40%;
+    height:8vh;
+    border-style:none none solid none;
+    outline:none;
+    font-size: 1.8rem;
+    font-family: 'Bebas Neue', cursive;
+    background:none;
+    letter-spacing: 3px
+}
+
+.search-button{
+    border-radius:0px;
+    font-size:1.5rem;
+    letter-spacing: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.app-page{
+    width:80%;
+    margin:auto;
+}
+
+.semiNavbar{
+    padding:20px 0px
+}
+
+.media-link{
+    color:#2a547e;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+    border-style: none none solid none;
+    width:25%;
+    letter-spacing: 5px;
+}
+.media-link:hover{
+    background-color: #2a547e;
+    color:#fff;
+    border-style: none none solid none;
+    border-color:#2a547e;
+} 
+
+
+/* images-page */
+
+.images-page{
+    position:relative;
+}
+/* search bar */
+#search{
+    position:sticky;
+    top:0;
+    z-index:1;
+    background-color: #e4e4e4;
+    background-image: url("https://www.transparenttextures.com/patterns/light-sketch.png");
+    box-shadow: 0 0px 5px #000000;
+    border-radius:3px;
+}
+
+/* --------------------------------- */
+.big-heading{
+    font-family: 'Rowdies', cursive;
+    padding : 50px 0px;
+}
+
+
+.images{
+    margin:auto;
+    padding:50px 0px;
+}
+
+.image-col{
+    padding:25px 0px;
+}
+
+.renderedImage{
+    height:90%;
+    width:80%
+}
+
+.view-btn,.download-btn{
+    border-radius : 0px;
+    margin: 20px 10px
+}
+
+.full-image{
+    padding:20px 0px;
+}
+/* -------------------------------------- */
+
+.videos{
+    width:80%;
+    height:90%;
+    margin:auto
+}
+/* -------------------------------------- */
+.jokes{
+    margin: auto;
+    padding:50px 0
+}
+
+.jokeBox{
+    display:inline-block;
+    box-shadow : 0 0 2px black;
+    padding: 20px;
+    margin:10px;
+    width:30%;  
+    background-color : #e4e4e4
+}
+
+.joke{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.8rem;
+    margin:auto;
+    font-weight: bolder;
+}
+.jokeHr{
+    width:10%;
+    border-style : dotted none none none;
+    border-width:5px;
+
+}
+/* ---------------------------------------- */
+
+.keywords{
+    font-family: "Bebas Neue", sans-serif;
+    padding:20px;
+    letter-spacing: 2px
+}
+
+.quoteBox{
+    margin : 30px 0px;
+    padding : 100px 0px;
+    font-size:2rem;
+    box-shadow: 0 0 10px black;
+    border-style: solid
+}
+
+.quote{
+    width:80%;
+    margin:auto;
+    font-family: 'Dancing Script', cursive;
+}
+/* --------------------------------------- */
+
+@media screen and (max-width: 1200px){
+    .search-media{
+        width:70%;
+    }
+    .search-button{
+        width:20%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) and (min-width:500px){
+    nav, .app-page, .renderedImage, .videos, .quote{
+        width:90%
+    }
+    .jokeBox{
+        width:45%
+    }
+    .full-image{
+        width:100%
+    }
+}
+
+
+@media screen and (max-width: 500px) and (min-width:100px){
+
+    nav, .app-page, .renderedImage, .videos, .quote{
+        width:95%
+    }
+    .jokeBox{
+        width:90%
+    }
+
+    .navbar-brand{
+        font-size:1.5rem
+    }
+    .semi-navbar{
+        padding:0px
+    }
+    .media-link{
+        font-size:1.2rem;
+        letter-spacing:2px;
+    }
+    .search-media, .search-button{
+        font-size:1.2rem;
+        width:60%;
+        margin:10px;
+        letter-spacing:1px;
+    }
+    .search-button{
+        width:25%;
+        margin:10px 0px;
+        letter-spacing:3px
+    }
+    .big-heading, .image-col{
+        padding:20px 0px;
+    }
+    .images{
+        padding:0px
+    }
+    .quoteBox{
+        padding:50px 0px;
+        margin: 10px 0px;
+    }
+}
