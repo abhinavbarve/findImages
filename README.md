@@ -1,4 +1,4 @@
-See the app <a href="https://findimages-com.herokuapp.com/">
+See the app <a href="https://findimages-com.herokuapp.com/">here</a>
   
 ## Available Scripts
 
